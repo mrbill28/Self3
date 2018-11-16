@@ -87,10 +87,10 @@ settings = {
     "changePictureProfile":False,
     "unsendMessage": False,
     "autoJoinTicket": False,
-    "welcome":"สวัสดีคนมาใหม่\n\nตั้งข้อความต้อนรับด้วยคับ\nVҜ ŚẾL₣ВΌŦ",
-    "kick":"งิเตะทมอยยย😂\nVҜ ŚẾL₣ВΌŦ",
-    "bye":"ไปซ่ะละ ลาก่อยยย\nVҜ ŚẾL₣ВΌŦ",
-    "Respontag":"แทคทำไมเดะจับเย็ดตูด!",
+    "welcome":"สวัสดีคนมาใหม่\n\nตั้งข้อความต้อนรับด้วยคับ\n💥Bill Bot💥",
+    "kick":"งิเตะทมอยยย😂\n💥Bill Bot💥",
+    "bye":"ไปซ่ะละ ลาก่อยยย\n💥Bill Bot💥",
+    "Respontag":"แทคทำไมนี้บิวเองน่ะ!",
     "eror":"คุณใช้คำสั่งผิด สั่งบอทอีกครั้ง!",
     "spam":{},
     "invite": {},
@@ -99,10 +99,10 @@ settings = {
     "pname": {},
     "pro_name": {},
     "message1":"แอดมารัก หรือ แอดมารัน😊",
-    "message":"บัญชีนี้ถูกป้องกันโดย VҜ ŚẾL₣ВΌŦ ระบบได้บล็อคคุณอัตโนมัติ!",
-    "comment":"""ŚẾL₣ВΌŦ BY:
+    "message":"บัญชีนี้ถูกป้องกันโดย 💥Bill Bot💥 ระบบได้บล็อคคุณอัตโนมัติ!",
+    "comment":"""💥Bill Bot💥 BY:
 ╔══════════════┓
-╠       VҜ ŚẾL₣ВΌŦ
+╠       💥Bill Bot💥
 ╚══════════════┛""",
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
@@ -347,22 +347,22 @@ def mentionMembers(to, mid):
 
 def myhelp():
     myHelp = """╔══════════════┓
-╠     VҜ ŚẾL₣ВΌŦ
+╠     💥Bill Bot💥
 ╚══════════════┛
 ╔══════════════┓
-╠❋►Me ↔คอนแทค
-╠❋►Help1 ↔คำสั่งทั่วไป
-╠❋►Help2 ↔คำสั่งกลุ่ม
-╠❋►Help3 ↔คำสั่งตั้งค่า
-╠❋►Help4 ↔ คำสั่งมีเดีย
-╠❋►Help5 ↔ คำสั่งสิริ
-╠❋►Help6 ↔ คำสั่งแปลภาษา
+╠❋►bill ↔คอนแทค
+╠❋►bill1 ↔คำสั่งทั่วไป
+╠❋►bill2 ↔คำสั่งกลุ่ม
+╠❋►bill3 ↔คำสั่งตั้งค่า
+╠❋►bill4 ↔ คำสั่งมีเดีย
+╠❋►bill5 ↔ คำสั่งสิริ
+╠❋►bill6 ↔ คำสั่งแปลภาษา
 ╠❋►บอทออน
 ╠❋►แทค
 ╠❋►ทีมบอท
 ╠❋►Creator
-╠❋►Sp
-╰═❋VҜ ŚẾL₣ВΌŦ »"""
+╠❋►จรวด
+╰═❋💥Bill Bot💥 »"""
     return myHelp
 
 def listgrup():
@@ -394,14 +394,14 @@ def listgrup():
 ╠❋►เปลี่ยนรูปกลุ่ม
 ╠❋►ประกาศ
 ╠❋►Vk @
-╠❋►หีแหก @
-╠❋►แบนหมด
-╠❋►แบน @
+╠❋►ตาย @
+╠❋►เมียหมด
+╠❋►เมีย @
 ╠❋►ยกเลิก @
-╠❋►ล้างแบน @
-╠❋►เตะแบน
+╠❋►ล้างเมีย @
+╠❋►เตะเมีย
 ╠❋►เช็คไอดี
-╰═❋VҜ ŚẾL₣ВΌŦ »"""
+╰═❋💥Bill Bot💥»"""
     return listGrup
 
 def socmedia():
@@ -431,7 +431,7 @@ def helpset():
 ╠    ❋คำสั่งSELF❋
 ╚══════════════┛
 ╔══════════════┓
-╠❋►Me
+╠❋►bill
 ╠❋►คท
 ╠❋►Mid
 ╠❋►รูป
@@ -448,7 +448,7 @@ def helpset():
 ╠❋►ตัส @
 ╠❋►ข้อมูล @
 ╠❋►ไอดี
-╠❋►Sp ↔ Speed
+╠❋►จรวด
 ╠❋►เปลี่ยนดิส
 ╠❋►ไวรัส
 ╠❋►ปิดไฟ
@@ -469,16 +469,16 @@ def helpset():
 ╠❋►ปิดบอท
 ╠❋►รัน @
 ╠❋►รันแชท
-╠❋►แบน @ ↔ ปลด @
+╠❋►เมีย @ ↔ ปลด @
 ╠❋►เลียนแบบ @
 ╠❋►ยกเลิก @
 ╠❋►Nutmic on ↔ off
 ╠❋►เชคเลียนแบบ
-╠❋►เตะแบน
+╠❋►เตะเมีย
 ╠❋►ชื่อ;
 ╠❋►ตัส;
 ╠❋►Spam on ↔ off
-╰═❋BY: VҜ ŚẾL₣ВΌŦ"""
+╰═❋BY: 💥Bill Bot💥"""
     return helpSet
 
 def helpsetting():
@@ -514,7 +514,7 @@ def helpsetting():
 ╠❋►กันกลุ่ม ↔ ปิดกันกลุ่ม
 ╠❋►กันเข้า ↔ ปิดกันเข้า
 ╠❋►เปิดหมด ↔ ปิดหมด
-╰══❋BY: VҜ ŚẾL₣ВΌŦ """
+╰══❋BY: 💥Bill Bot💥 """
     return helpSetting
 
 def helptexttospeech():
@@ -707,10 +707,10 @@ def lineBot(op):
                         p = Pool(20)
                         p.map(Rapid1Say,rmtosay)
                         p.close()
-                if text.lower() == 'คำสั่ง':
+                if text.lower() == 'bill':
                     myHelp = myhelp()
                     line.sendMessage(to, str(myHelp))
-                elif text.lower() == 'help1':
+                elif text.lower() == 'bill1':
                     helpSet = helpset()
                     line.sendMessage(to, str(helpSet))
                     sendMessageWithMention(to, lineMID)
